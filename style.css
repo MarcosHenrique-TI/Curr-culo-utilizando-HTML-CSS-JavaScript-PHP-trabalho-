@@ -22,9 +22,15 @@ body {
     padding: 30px;
 }
 
+.sidebar p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .sidebar i {
     margin-right: 10px;
-    color: hsl(30, 3%, 12%);
+    color: white;
 }
 
 .profile-pic {
