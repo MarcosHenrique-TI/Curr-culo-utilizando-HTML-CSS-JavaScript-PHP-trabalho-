@@ -78,8 +78,8 @@ nav a {
 }
 
 nav a:hover {
-    font-size: large;
     color: #66b3ff;
+    transform: translateX(5px);
 }
 
 .main-content {
@@ -145,9 +145,79 @@ button{
 }
 button:hover{
     background-color: #e9e4e4;
-    padding: 12px;
     cursor: pointer;
     color: #111;
     transition: 0.3s;
-    font-size: medium;
+}
+#dowload {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#dowload i {
+    font-size: 20px;
+    color: white;
+}
+#dowload:hover i {
+    color: #66b3ff;
+    transition: 0.3s;
+}
+.lighttheme {
+    background: linear-gradient(135deg, #e9e4e4, #5e5c5c);
+    color: #111;
+}
+.lighttheme .container {
+    background-color: #ffffff;
+    color: #111;
+}
+
+.lighttheme .sidebar {
+    background-color: #f0f0f0;
+    color: #111;
+}
+
+.lighttheme .main-content {
+    color: #111;
+}
+
+.lighttheme .education li,
+.lighttheme .experience li,
+.lighttheme .additional-info,
+.lighttheme .objective {
+    background-color: #dddddd;
+    color: #111;
+}
+.lighttheme nav a {
+    color: #111;
+}
+.lighttheme nav i {
+    color: #111;
+}
+.lighttheme nav a:hover {
+    color: #66b3ff;
+    transform: translateX(5px);
+}
+.lighttheme button {
+    background-color: #c1c1c1;
+    color: #111;
+}
+.lighttheme button:hover {
+    background-color: #e9e4e4;
+    color: #111;
+}
+.lighttheme .sidebar p i {
+    color: #111;
+}
+.lighttheme .profile-pic {
+    border: 3px solid #111;
+}
+.lighttheme .profile-pic img {
+    filter: grayscale(0);
+}
+.lighttheme #dowload i {
+    color: #111;
+}
+.lighttheme #dowload:hover i {
+    color: #66b3ff;
+    transition: 0.3s;
 }
