@@ -5,9 +5,8 @@ botaoTema.addEventListener('click', () => {
     body.classList.toggle('lighttheme');
 
     if (body.classList.contains('lighttheme')) {
-        botaoTema.textContent = 'Modo Escuro';
+        botaoTema.innerHTML = '<i class="fa-solid fa-sun"></i>';
     } else {
-        botaoTema.textContent = 'Modo Claro';
+        botaoTema.innerHTML = '<i class="fa-solid fa-moon"></i>';
     }
-
 });

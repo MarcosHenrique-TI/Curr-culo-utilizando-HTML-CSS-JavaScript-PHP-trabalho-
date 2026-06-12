@@ -154,32 +154,43 @@ ol li {
     transform: translateY(-3px);
     transition: 0.3s;
 }
-
-button{
-    background-color: #5f5f5f;
-    border-radius: 15px;
-    border: 1px solid gray;
-    padding: 10px;
+#theme-toggle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: #2c2c2c;
     color: white;
-}
-button:hover{
-    background-color: #e9e4e4;
     cursor: pointer;
-    color: #111;
     transition: 0.3s;
+}
+#theme-toggle i {
+    font-size: 18px;
+    display: block;
+    margin: auto;
+}
+#theme-toggle:hover {
+    transform: scale(1.1);
+    background: #3a3a3a;
 }
 #download {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: #2c2c2c;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
 }
 #download i {
-    font-size: 20px;
-    color: white;
+    font-size: 18px;
+    display: block;
+    margin: auto;
 }
-#download:hover i {
-    color: #66b3ff;
-    transition: 0.3s;
+#download:hover {
+    transform: scale(1.1);
+    background: #3a3a3a;
 }
 .lighttheme {
     background: linear-gradient(135deg, #e9e4e4, #5e5c5c);
@@ -223,12 +234,7 @@ button:hover{
 .lighttheme .skill-tags span:hover {
     background-color: #e9e4e4;
 }
-.lighttheme button {
-    background-color: #c1c1c1;
-    color: #111;
-}
-.lighttheme button:hover {
-    background-color: #e9e4e4;
+.lighttheme .skill-tags i {
     color: #111;
 }
 .lighttheme .sidebar p i {
@@ -241,9 +247,8 @@ button:hover{
     filter: grayscale(0);
 }
 .lighttheme #download i {
-    color: #111;
+    color: #e9e4e4;
 }
-.lighttheme #download:hover i {
-    color: #66b3ff;
-    transition: 0.3s;
+.lighttheme #download:hover {
+    transform: scale(1.1);
 }
