@@ -81,6 +81,25 @@ nav a:hover {
     color: #66b3ff;
     transform: translateX(5px);
 }
+span{
+border-radius: 20px;
+padding: 6px 12px;
+background: #2c2c2c;
+color: white;
+}
+.skill-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.skill-tags span:hover {
+    transform: translateY(-2px);
+    background-color: #3a3a3a;
+    cursor: default;
+    transition: 0.3s;
+}
 
 .main-content {
     flex: 1;
@@ -149,16 +168,16 @@ button:hover{
     color: #111;
     transition: 0.3s;
 }
-#dowload {
+#download {
     position: absolute;
     top: 20px;
     right: 20px;
 }
-#dowload i {
+#download i {
     font-size: 20px;
     color: white;
 }
-#dowload:hover i {
+#download:hover i {
     color: #66b3ff;
     transition: 0.3s;
 }
@@ -197,6 +216,13 @@ button:hover{
     color: #66b3ff;
     transform: translateX(5px);
 }
+.lighttheme span {
+    background: #c1c1c1;
+    color: #111;
+}
+.lighttheme .skill-tags span:hover {
+    background-color: #e9e4e4;
+}
 .lighttheme button {
     background-color: #c1c1c1;
     color: #111;
@@ -214,10 +240,10 @@ button:hover{
 .lighttheme .profile-pic img {
     filter: grayscale(0);
 }
-.lighttheme #dowload i {
+.lighttheme #download i {
     color: #111;
 }
-.lighttheme #dowload:hover i {
+.lighttheme #download:hover i {
     color: #66b3ff;
     transition: 0.3s;
 }

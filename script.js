@@ -9,9 +9,5 @@ botaoTema.addEventListener('click', () => {
     } else {
         botaoTema.textContent = 'Modo Claro';
     }
-    const downloadBtn = document.getElementById("download-cv");
 
-downloadBtn.addEventListener("click", () => {
-
-});
 });
