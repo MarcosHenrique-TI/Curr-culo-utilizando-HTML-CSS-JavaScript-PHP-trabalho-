@@ -252,3 +252,37 @@ ol li {
 .lighttheme #download:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        text-align: border box;
+    }
+    .sidebar h1 {
+        font-size: 22px;
+    }
+    .profile-pic {
+        width: 140px;
+        height: 140px;
+    }
+    .sidebar h1 {
+        font-size: 24px;
+    }
+    .main-content h2 {
+        font-size: 22px;
+    }
+    .education li,
+    .experience li {
+        font-size: 15px;
+    }
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+}
