@@ -127,6 +127,7 @@ color: white;
     border-radius: 10px;
     margin-bottom: 20px;
     transition: 0.3s;
+    line-height: 1.8;
 }
 
 .education li:hover,
@@ -148,6 +149,7 @@ ol li {
     padding: 20px;
     border-radius: 10px;
     margin-top: 15px;
+    line-height: 1.8;
 }
 .additional-info:hover,
 .objective:hover {
@@ -262,24 +264,28 @@ ol li {
     }
     .sidebar {
         width: 100%;
-        text-align: border box;
+        padding: 20px;
+    }
+    .email {
+    font-size: 13.25px;
+    overflow-wrap: break-word;
+    }
+    .main-content {
+        padding: 20px;
     }
     .sidebar h1 {
-        font-size: 22px;
+        font-size: 28px;
     }
-    .profile-pic {
-        width: 140px;
-        height: 140px;
-    }
-    .sidebar h1 {
-        font-size: 24px;
-    }
-    .main-content h2 {
-        font-size: 22px;
+    .sidebar h2 {
+        font-size: 20px;
     }
     .education li,
-    .experience li {
-        font-size: 15px;
+    .experience li p,
+    .additional-info,
+    .objective{
+    padding: 12px;
+    margin: 5px 0;
+    line-height: 1.8;
     }
     img {
     max-width: 100%;
