@@ -4,4 +4,4 @@ Projeto de currículo online desenvolvido com foco em design moderno, responsivi
 
 Tecnologias utilizadas: HTML5, CSS3 e JavaScript.
 
-🌐 Currículo online: 
+Currículo online: https://marcoshenrique-ti.github.io/Curr-culo-utilizando-HTML-CSS-JavaScript-PHP-trabalho-/
