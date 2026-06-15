@@ -106,6 +106,16 @@ color: white;
     gap: 10px;
     margin-top: 20px;
 }
+.contact-form hr {
+    width: 80%;
+    max-width: 480px;
+    height: 3px;
+    border: none;
+    background: linear-gradient(90deg, #66b3ff, transparent);
+    margin: 0 0 12px 0;
+    align-self: flex-start;
+    border-radius: 2px;
+}
 .contact-form label {
     color: white;
     font-weight: bold;
